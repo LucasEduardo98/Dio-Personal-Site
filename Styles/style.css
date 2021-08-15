@@ -1,5 +1,6 @@
 body{
     background: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .post{
@@ -16,6 +17,7 @@ body{
 .posttitle{
     font-size: 16px;
     font-style: italic;
+    text-transform: uppercase;
 }
 
 .img-lucas-topo{
@@ -25,4 +27,14 @@ body{
 }
 .img-code-post{
     width: 250px;
+}
+
+.lista-contatos{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.lista-contatos li a{
+    color: black;
+    text-decoration: none;
 }
